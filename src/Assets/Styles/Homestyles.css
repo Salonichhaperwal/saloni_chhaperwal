@@ -1,0 +1,86 @@
+.container-fluid {
+  /* background-image: radial-gradient(#4b4783, #212025),
+    linear-gradient(135deg, #1c1b2a, rgb(44, 42, 71)),
+    url("../Images/gridlines.png"); */
+  background: radial-gradient(at 49% 39%, #13122a 17%, #04040b 48%),
+    url("../Images/gridlines.png");
+  height: 998px;
+  width: 1520px;
+  color: aliceblue;
+  justify-content: center;
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+}
+.empingimg {
+  width: 40%;
+}
+
+.tglineimg {
+  width: 40%;
+}
+
+.comingsoonbtn {
+  background: #6c5ff5 !important;
+  color: #edf0ff !important;
+  border-radius: 25px;
+  padding: 10px 25px;
+  outline: none;
+  height: 56px;
+}
+
+.groupimg {
+  max-width: 80%;
+  max-height: 309.89px;
+}
+.datadiv {
+  display: flex;
+  justify-content: center;
+}
+.dataone {
+  width: 40%;
+  /* margin-left: 50px; */
+  height: 217px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: #edf0ff;
+  color: #1c1b2a;
+  text-align: left;
+  font: nohemi;
+  background-image: radial-gradient(#f7f6ff 10%, #b2adff 50%, 10deg);
+  background: radial-gradient(at 49% 95%, #b2adff 30%, #f7f6ff 59%);
+  background-size: contain;
+  font-family: "Bricolage Grotesque";
+  font-size: 86px;
+  font-weight: 600;
+}
+
+.datatwo {
+  width: 40%;
+  margin-left: 50px;
+  height: 217px;
+  border-radius: 24px;
+  color: #1c1b2a;
+  text-align: left;
+  background-image: radial-gradient(#f7f6ff 10%, #b2adff 50%, 10deg);
+  background: radial-gradient(at 49% 95%, #b2adff 30%, #f7f6ff 59%);
+  background-size: contain;
+  font-family: "Bricolage Grotesque";
+  font-size: 2rem;
+  font-weight: 600;
+}
+.last30days {
+  font-size: 15px;
+}
+.num {
+  font-family: Bricolage Grotesque 24pt Condensed;
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: left;
+}
